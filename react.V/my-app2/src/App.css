@@ -1,0 +1,13 @@
+.container { padding: 20px; font-family: sans-serif; background-color: #f8f9fa; }
+.grid { display: flex; flex-wrap: wrap; gap: 15px; margin-bottom: 30px; }
+.card { 
+  background: white; border: 1px solid #e0e0e0; 
+  padding: 15px; border-radius: 10px; min-width: 200px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+.status { font-size: 0.9em; margin-top: 10px; padding: 4px 8px; border-radius: 15px; display: inline-block; }
+.online { background: #e6fcf5; color: #099268; }
+.offline { background: #f1f3f5; color: #868e96; }
+.buy-btn { background: #228be6; color: white; border: none; padding: 8px 12px; border-radius: 5px; cursor: pointer; }
+.out-of-stock { color: #fa5252; font-weight: bold; }
+.task-section { background: #fff9db; padding: 20px; border-radius: 10px; }
