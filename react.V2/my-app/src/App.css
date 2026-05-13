@@ -1,0 +1,118 @@
+body {
+  background-color: #f0f2f5;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+}
+
+.container {
+  max-width: 400px;
+  width: 100%;
+}
+
+.login-card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-card h2 { color: #1c1e21; margin-top: 0; }
+
+.login-input-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.login-card input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  width: 60%;
+}
+
+.login-card button {
+  padding: 10px 15px;
+  background-color: #0095f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.product-card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.product-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.product-info {
+  padding: 20px;
+}
+
+.price {
+  font-size: 1.2rem;
+  color: #2ecc71;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.counter-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: #f8f9fa;
+  padding: 5px 15px;
+  border-radius: 10px;
+  width: fit-content;
+  margin-bottom: 15px;
+}
+
+.count-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #555;
+  padding: 0 10px;
+}
+
+.count-number {
+  font-weight: bold;
+  font-size: 1.1rem;
+  min-width: 20px;
+  text-align: center;
+}
+
+.like-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+}
+
+.heart-icon {
+  font-size: 1.5rem;
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.heart-icon.active {
+  transform: scale(1.2);
+}
