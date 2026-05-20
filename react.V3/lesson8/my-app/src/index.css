@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f8fafc;
+  color: #443705; 
+  -webkit-font-smoothing: antialiased;
+}
+
+a, button {
+  transition: all 0.25s ease;
+}
