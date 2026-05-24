@@ -51,7 +51,7 @@ function UserProfile() {
               </svg>
             </div>
             <div style={styles.infoTextWrapper}>
-              <span style={styles.infoLabel}>ԷԼ. email</span>
+              <span style={styles.infoLabel}> email</span>
               <span style={styles.infoValue}>{user.email}</span>
             </div>
           </div>
